@@ -1,5 +1,12 @@
 function minDate(dates) {
   //write you code here
+	var res=dates[0];
+	foreach(date in dates){
+		var t=new Date(date);
+		res=Math.min(res,t);
+		    
+	}
+	return res;
 }
 
 // Do not change the code
